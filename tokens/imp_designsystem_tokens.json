@@ -1,425 +1,164 @@
 {
   "colors": {
     "primary": {
-      "50": "#f5f1fb",
-      "100": "#e8ddf5",
-      "200": "#d1bceb",
-      "300": "#b89ae2",
-      "400": "#9568d8",
-      "500": "#7030a0",
-      "600": "#5a2683",
-      "700": "#441c67",
-      "800": "#2e134b",
-      "900": "#1a0a2e"
+      "50": { "$type": "color", "$value": "#f5f1fb" },
+      "100": { "$type": "color", "$value": "#e8ddf5" },
+      "200": { "$type": "color", "$value": "#d1bceb" },
+      "300": { "$type": "color", "$value": "#b89ae2" },
+      "400": { "$type": "color", "$value": "#9568d8" },
+      "500": { "$type": "color", "$value": "#7030a0" },
+      "600": { "$type": "color", "$value": "#5a2683" },
+      "700": { "$type": "color", "$value": "#441c67" },
+      "800": { "$type": "color", "$value": "#2e134b" },
+      "900": { "$type": "color", "$value": "#1a0a2e" }
     },
     "secondary": {
-      "50": "#f9f9f9",
-      "100": "#f3f3f3",
-      "200": "#e8e8e8",
-      "300": "#d5d5d5",
-      "400": "#b3b3b3",
-      "500": "#8f8f8f",
-      "600": "#6e6e6e",
-      "700": "#4d4d4d",
-      "800": "#2d2d2d",
-      "900": "#1f1f1f"
+      "50": { "$type": "color", "$value": "#f9f9f9" },
+      "100": { "$type": "color", "$value": "#f3f3f3" },
+      "200": { "$type": "color", "$value": "#e8e8e8" },
+      "300": { "$type": "color", "$value": "#d5d5d5" },
+      "400": { "$type": "color", "$value": "#b3b3b3" },
+      "500": { "$type": "color", "$value": "#8f8f8f" },
+      "600": { "$type": "color", "$value": "#6e6e6e" },
+      "700": { "$type": "color", "$value": "#4d4d4d" },
+      "800": { "$type": "color", "$value": "#2d2d2d" },
+      "900": { "$type": "color", "$value": "#1f1f1f" }
     },
     "tertiary": {
-      "50": "#f0f8ff",
-      "100": "#e0f0ff",
-      "200": "#c1e0ff",
-      "300": "#9cc8ff",
-      "400": "#66a8ff",
-      "500": "#0078d4",
-      "600": "#005fbf",
-      "700": "#004499",
-      "800": "#003073",
-      "900": "#00184d"
+      "50": { "$type": "color", "$value": "#f0f8ff" },
+      "100": { "$type": "color", "$value": "#e0f0ff" },
+      "200": { "$type": "color", "$value": "#c1e0ff" },
+      "300": { "$type": "color", "$value": "#9cc8ff" },
+      "400": { "$type": "color", "$value": "#66a8ff" },
+      "500": { "$type": "color", "$value": "#0078d4" },
+      "600": { "$type": "color", "$value": "#005fbf" },
+      "700": { "$type": "color", "$value": "#004499" },
+      "800": { "$type": "color", "$value": "#003073" },
+      "900": { "$type": "color", "$value": "#00184d" }
     },
     "success": {
-      "50": "#f1fdf4",
-      "100": "#dffbe8",
-      "200": "#b5f5d4",
-      "300": "#7dedbb",
-      "400": "#3be098",
-      "500": "#107c10",
-      "600": "#0c620d",
-      "700": "#08480b",
-      "800": "#053008",
-      "900": "#021805"
+      "50": { "$type": "color", "$value": "#f1fdf4" },
+      "100": { "$type": "color", "$value": "#dffbe8" },
+      "200": { "$type": "color", "$value": "#b5f5d4" },
+      "300": { "$type": "color", "$value": "#7dedbb" },
+      "400": { "$type": "color", "$value": "#3be098" },
+      "500": { "$type": "color", "$value": "#107c10" },
+      "600": { "$type": "color", "$value": "#0c620d" },
+      "700": { "$type": "color", "$value": "#08480b" },
+      "800": { "$type": "color", "$value": "#053008" },
+      "900": { "$type": "color", "$value": "#021805" }
     },
     "error": {
-      "50": "#fdf4f3",
-      "100": "#fde5e2",
-      "200": "#fcccc6",
-      "300": "#f8a9a0",
-      "400": "#f17d73",
-      "500": "#d13438",
-      "600": "#a02a2d",
-      "700": "#6f1f23",
-      "800": "#3f1619",
-      "900": "#200b0d"
+      "50": { "$type": "color", "$value": "#fdf4f3" },
+      "100": { "$type": "color", "$value": "#fde5e2" },
+      "200": { "$type": "color", "$value": "#fcccc6" },
+      "300": { "$type": "color", "$value": "#f8a9a0" },
+      "400": { "$type": "color", "$value": "#f17d73" },
+      "500": { "$type": "color", "$value": "#d13438" },
+      "600": { "$type": "color", "$value": "#a02a2d" },
+      "700": { "$type": "color", "$value": "#6f1f23" },
+      "800": { "$type": "color", "$value": "#3f1619" },
+      "900": { "$type": "color", "$value": "#200b0d" }
     },
     "warning": {
-      "50": "#fffaf0",
-      "100": "#fff4de",
-      "200": "#ffe8bb",
-      "300": "#ffd789",
-      "400": "#ffc247",
-      "500": "#ffb900",
-      "600": "#daa000",
-      "700": "#b39000",
-      "800": "#806700",
-      "900": "#4d3f00"
+      "50": { "$type": "color", "$value": "#fffaf0" },
+      "100": { "$type": "color", "$value": "#fff4de" },
+      "200": { "$type": "color", "$value": "#ffe8bb" },
+      "300": { "$type": "color", "$value": "#ffd789" },
+      "400": { "$type": "color", "$value": "#ffc247" },
+      "500": { "$type": "color", "$value": "#ffb900" },
+      "600": { "$type": "color", "$value": "#daa000" },
+      "700": { "$type": "color", "$value": "#b39000" },
+      "800": { "$type": "color", "$value": "#806700" },
+      "900": { "$type": "color", "$value": "#4d3f00" }
     },
     "neutral": {
-      "black": "#000000",
-      "white": "#ffffff",
-      "text-default": "#1f1f1f",
-      "text-secondary": "#6e6e6e",
-      "text-disabled": "#a6a6a6",
-      "bg-default": "#ffffff",
-      "bg-subtle": "#f3f3f3",
-      "bg-light": "#f0f0f0",
-      "border": "#e5e5e5",
-      "divider": "#e5e5e5",
-      "sidebar-bg": "#2a2558",
-      "sidebar-text": "#ffffff",
-      "sidebar-hover": "#3a3568"
+      "black": { "$type": "color", "$value": "#000000" },
+      "white": { "$type": "color", "$value": "#ffffff" },
+      "text-default": { "$type": "color", "$value": "#1f1f1f" },
+      "text-secondary": { "$type": "color", "$value": "#6e6e6e" },
+      "text-disabled": { "$type": "color", "$value": "#a6a6a6" },
+      "bg-default": { "$type": "color", "$value": "#ffffff" },
+      "bg-subtle": { "$type": "color", "$value": "#f3f3f3" },
+      "bg-light": { "$type": "color", "$value": "#f0f0f0" },
+      "border": { "$type": "color", "$value": "#e5e5e5" },
+      "divider": { "$type": "color", "$value": "#e5e5e5" },
+      "sidebar-bg": { "$type": "color", "$value": "#2a2558" },
+      "sidebar-text": { "$type": "color", "$value": "#ffffff" },
+      "sidebar-hover": { "$type": "color", "$value": "#3a3568" }
     }
   },
   "typography": {
     "fontFamily": {
-      "furniture": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif",
-      "data": "'Courier New', 'Courier', monospace",
-      "dataDescription": "Used for all content within data tables (numbers, text, codes, descriptions) to ensure consistent alignment and visual clarity"
+      "furniture": { "$type": "fontFamily", "$value": "system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', sans-serif" },
+      "data": { "$type": "fontFamily", "$value": "'Courier New', 'Courier', monospace" }
     },
     "fontSize": {
-      "xs": "12px",
-      "sm": "13px",
-      "base": "14px",
-      "md": "15px",
-      "lg": "16px",
-      "xl": "18px",
-      "2xl": "20px",
-      "3xl": "24px",
-      "4xl": "32px"
+      "xs": { "$type": "dimension", "$value": "12px" },
+      "sm": { "$type": "dimension", "$value": "13px" },
+      "base": { "$type": "dimension", "$value": "14px" },
+      "md": { "$type": "dimension", "$value": "15px" },
+      "lg": { "$type": "dimension", "$value": "16px" },
+      "xl": { "$type": "dimension", "$value": "18px" },
+      "2xl": { "$type": "dimension", "$value": "20px" },
+      "3xl": { "$type": "dimension", "$value": "24px" },
+      "4xl": { "$type": "dimension", "$value": "32px" }
     },
     "fontWeight": {
-      "regular": 400,
-      "medium": 500,
-      "semibold": 600,
-      "bold": 700
+      "regular": { "$type": "fontWeight", "$value": 400 },
+      "medium": { "$type": "fontWeight", "$value": 500 },
+      "semibold": { "$type": "fontWeight", "$value": 600 },
+      "bold": { "$type": "fontWeight", "$value": 700 }
     },
     "lineHeight": {
-      "tight": 1.2,
-      "normal": 1.5,
-      "relaxed": 1.75,
-      "loose": 2
+      "tight": { "$type": "number", "$value": 1.2 },
+      "normal": { "$type": "number", "$value": 1.5 },
+      "relaxed": { "$type": "number", "$value": 1.75 },
+      "loose": { "$type": "number", "$value": 2 }
     }
   },
   "spacing": {
-    "4": "4px",
-    "8": "8px",
-    "12": "12px",
-    "16": "16px",
-    "24": "24px",
-    "32": "32px",
-    "48": "48px",
-    "64": "64px"
+    "4": { "$type": "dimension", "$value": "4px" },
+    "8": { "$type": "dimension", "$value": "8px" },
+    "12": { "$type": "dimension", "$value": "12px" },
+    "16": { "$type": "dimension", "$value": "16px" },
+    "24": { "$type": "dimension", "$value": "24px" },
+    "32": { "$type": "dimension", "$value": "32px" },
+    "48": { "$type": "dimension", "$value": "48px" },
+    "64": { "$type": "dimension", "$value": "64px" }
   },
   "borderRadius": {
-    "0": "0px",
-    "sm": "4px",
-    "md": "6px",
-    "lg": "8px",
-    "full": "9999px"
+    "0": { "$type": "dimension", "$value": "0px" },
+    "sm": { "$type": "dimension", "$value": "4px" },
+    "md": { "$type": "dimension", "$value": "6px" },
+    "lg": { "$type": "dimension", "$value": "8px" },
+    "full": { "$type": "dimension", "$value": "9999px" }
   },
   "shadows": {
-    "xs": "0 1px 2px rgba(0, 0, 0, 0.05)",
-    "sm": "0 1px 3px rgba(0, 0, 0, 0.1)",
-    "md": "0 4px 8px rgba(0, 0, 0, 0.12)",
-    "lg": "0 8px 16px rgba(0, 0, 0, 0.15)"
+    "xs": { "$type": "shadow", "$value": "0 1px 2px rgba(0, 0, 0, 0.05)" },
+    "sm": { "$type": "shadow", "$value": "0 1px 3px rgba(0, 0, 0, 0.1)" },
+    "md": { "$type": "shadow", "$value": "0 4px 8px rgba(0, 0, 0, 0.12)" },
+    "lg": { "$type": "shadow", "$value": "0 8px 16px rgba(0, 0, 0, 0.15)" }
   },
   "transitions": {
     "duration": {
-      "fast": "150ms",
-      "normal": "250ms",
-      "slow": "350ms"
+      "fast": { "$type": "duration", "$value": "150ms" },
+      "normal": { "$type": "duration", "$value": "250ms" },
+      "slow": { "$type": "duration", "$value": "350ms" }
     },
-    "easing": "cubic-bezier(0.4, 0, 0.2, 1)",
-    "timing": {
-      "fast": "150ms cubic-bezier(0.4, 0, 0.2, 1)",
-      "normal": "250ms cubic-bezier(0.4, 0, 0.2, 1)",
-      "slow": "350ms cubic-bezier(0.4, 0, 0.2, 1)"
-    }
+    "easing": { "$type": "cubicBezier", "$value": [0.4, 0, 0.2, 1] }
   },
-  "buttons": {
-    "primary": {
-      "background": "#7030a0",
-      "text": "#ffffff",
-      "border": "none",
-      "borderRadius": "6px",
-      "padding": {
-        "vertical": "12px",
-        "horizontal": "16px"
-      },
-      "hover": {
-        "background": "#5a2683"
-      },
-      "active": {
-        "background": "#441c67"
-      },
-      "disabled": {
-        "background": "#a6a6a6",
-        "text": "#ffffff",
-        "opacity": 0.6
-      }
-    },
-    "secondary": {
-      "background": "#f0f0f0",
-      "text": "#1f1f1f",
-      "border": "1px solid #e5e5e5",
-      "borderRadius": "6px",
-      "padding": {
-        "vertical": "12px",
-        "horizontal": "16px"
-      },
-      "hover": {
-        "background": "#e8e8e8"
-      },
-      "active": {
-        "background": "#d5d5d5"
-      },
-      "disabled": {
-        "background": "#f3f3f3",
-        "text": "#a6a6a6",
-        "border": "1px solid #e5e5e5"
-      }
-    },
-    "tertiary": {
-      "background": "transparent",
-      "text": "#7030a0",
-      "border": "none",
-      "borderRadius": "6px",
-      "padding": {
-        "vertical": "12px",
-        "horizontal": "16px"
-      },
-      "hover": {
-        "background": "rgba(112, 48, 160, 0.08)"
-      },
-      "active": {
-        "background": "rgba(112, 48, 160, 0.16)"
-      },
-      "disabled": {
-        "text": "#a6a6a6",
-        "background": "transparent"
-      }
-    },
-    "quaternary": {
-      "background": "transparent",
-      "text": "#6e6e6e",
-      "border": "none",
-      "borderRadius": "6px",
-      "padding": {
-        "vertical": "12px",
-        "horizontal": "16px"
-      },
-      "hover": {
-        "background": "rgba(110, 110, 110, 0.08)"
-      },
-      "active": {
-        "background": "rgba(110, 110, 110, 0.16)"
-      },
-      "disabled": {
-        "text": "#a6a6a6",
-        "background": "transparent"
-      }
-    },
-    "destructive": {
-      "background": "#d13438",
-      "text": "#ffffff",
-      "border": "none",
-      "borderRadius": "6px",
-      "padding": {
-        "vertical": "12px",
-        "horizontal": "16px"
-      },
-      "hover": {
-        "background": "#a02a2d"
-      },
-      "active": {
-        "background": "#6f1f23"
-      },
-      "disabled": {
-        "background": "#a6a6a6",
-        "text": "#ffffff",
-        "opacity": 0.6
-      }
-    }
-  },
-  "states": {
-    "statusIcons": {
-      "draft": {
-        "label": "Draft",
-        "color": "#6e6e6e",
-        "icon": "document-outline",
-        "usage": "Not yet submitted"
-      },
-      "submitted": {
-        "label": "Submitted",
-        "color": "#0078d4",
-        "icon": "send",
-        "usage": "Awaiting review"
-      },
-      "underReview": {
-        "label": "Under Review",
-        "color": "#ffb900",
-        "icon": "review-outline",
-        "usage": "In progress"
-      },
-      "approved": {
-        "label": "Approved",
-        "color": "#107c10",
-        "icon": "checkmark-circle",
-        "usage": "Ready or complete"
-      },
-      "rejected": {
-        "label": "Rejected",
-        "color": "#d13438",
-        "icon": "close-circle",
-        "usage": "Needs revision"
-      },
-      "archived": {
-        "label": "Archived",
-        "color": "#6e6e6e",
-        "icon": "archive",
-        "usage": "Historical record"
-      }
-    },
-    "indicators": {
-      "active": {
-        "label": "Active",
-        "color": "#107c10",
-        "icon": "status-circle-filled",
-        "usage": "Connection healthy, system operational"
-      },
-      "expired": {
-        "label": "Expired",
-        "color": "#ffb900",
-        "icon": "warning",
-        "usage": "Feed stalled, requires attention"
-      },
-      "notConnected": {
-        "label": "Not Connected",
-        "color": "#ffb900",
-        "icon": "warning",
-        "usage": "No recent data, requires investigation"
-      },
-      "error": {
-        "label": "Error",
-        "color": "#d13438",
-        "icon": "error-circle",
-        "usage": "System error, action required"
-      }
-    }
-  },
-  "semanticColors": {
+  "semantic": {
     "state": {
-      "success": "#107c10",
-      "error": "#d13438",
-      "warning": "#ffb900",
-      "info": "#0078d4",
-      "neutral": "#6e6e6e"
+      "success": { "$type": "color", "$value": "{colors.success.500}" },
+      "error": { "$type": "color", "$value": "{colors.error.500}" },
+      "warning": { "$type": "color", "$value": "{colors.warning.500}" },
+      "info": { "$type": "color", "$value": "{colors.tertiary.500}" },
+      "neutral": { "$type": "color", "$value": "{colors.secondary.600}" }
     }
   },
-  "dataFormatting": {
-    "tableContent": {
-      "fontFamily": "'Courier New', 'Courier', monospace",
-      "usage": "All data table content (numbers, text, codes, descriptions)",
-      "rationale": "Monospace ensures consistent character width for visual alignment and scannability across mixed content types"
-    },
-    "numbers": {
-      "alignment": "right",
-      "decimalPlaces": 2,
-      "thousandsSeparator": "comma",
-      "currencySymbol": "£",
-      "currencyPlacement": "prefix-adjacent"
-    },
-    "negative": {
-      "format": "italic with optional prefix",
-      "example": "(£1,500.00) in italics or –£1,500.00 in italics",
-      "color": "use semantic neutral color, not red",
-      "style": "font-style: italic"
-    },
-    "positive": {
-      "format": "normal weight",
-      "example": "£1,500.00",
-      "color": "semantic neutral color",
-      "style": "font-style: normal"
-    },
-    "totals": {
-      "style": "bold or distinct background color",
-      "weight": 700,
-      "example": "Total: £5,000.00 (bold)"
-    }
-  },
-  "table": {
-    "compact": {
-      "rowHeight": "40px",
-      "cellPadding": {
-        "vertical": "8px",
-        "horizontal": "12px"
-      },
-      "columnGap": "12px",
-      "usage": "Bank accounts, reconciliation data"
-    },
-    "moderate": {
-      "fieldPadding": {
-        "vertical": "12px",
-        "horizontal": "16px"
-      },
-      "fieldGap": "16px",
-      "labelToField": "8px",
-      "usage": "Forms, multi-field entry"
-    },
-    "spacious": {
-      "componentPadding": "24px+",
-      "componentGap": "24px+",
-      "sectionGap": "48px",
-      "usage": "Dashboards, marketing pages"
-    }
-  },
-  "phase2Enhancements": {
-    "description": "Future enhancements to be implemented after brand book completion",
-    "items": [
-      {
-        "name": "Teal/Cyan Accent Colour",
-        "status": "deferred",
-        "rationale": "Currently not used in product; extract from brand website when ready",
-        "usage": "Secondary CTAs, information highlights, borders"
-      },
-      {
-        "name": "Brand Gradient",
-        "status": "deferred",
-        "rationale": "Purple→Pink gradient from brand website",
-        "usage": "Dashboard backgrounds, section headers (not data areas)",
-        "caution": "Use conservatively in data-heavy interfaces"
-      },
-      {
-        "name": "Pill Button Variant",
-        "status": "deferred",
-        "rationale": "Consider radius-full (9999px) for secondary CTAs to align with brand personality",
-        "current": "radius-md (6px) is default",
-        "suggestion": "Phase 2 can introduce radius-full as optional variant for softer appearance"
-      },
-      {
-        "name": "Enhanced Typography for Marketing",
-        "status": "deferred",
-        "rationale": "Brand uses bolder, larger headings; product uses conservative functional typography",
-        "suggestion": "Consider separate typography scale for marketing/dashboard contexts vs. data entry forms"
-      }
-    ]
+  "$themes": [],
+  "$metadata": {
+    "tokenSetOrder": ["colors", "typography", "spacing", "borderRadius", "shadows", "transitions", "semantic"]
   }
 }
