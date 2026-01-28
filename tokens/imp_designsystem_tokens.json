@@ -329,7 +329,7 @@
       "primary": {
         "bg-default": {
           "$type": "color",
-          "$value": "{error.500}"
+          "$value": "{primary.500}"
         },
         "bg-hover": {
           "$type": "color",
