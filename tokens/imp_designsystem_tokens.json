@@ -3,85 +3,125 @@
     "primary": {
       "50": {
         "$type": "color",
-        "$value": "#f5f1fb"
+        "$value": "#f5f5fd"
       },
       "100": {
         "$type": "color",
-        "$value": "#e8ddf5"
+        "$value": "#eeedfb"
       },
       "200": {
         "$type": "color",
-        "$value": "#d1bceb"
+        "$value": "#e2e1fe"
       },
       "300": {
         "$type": "color",
-        "$value": "#b89ae2"
+        "$value": "#e0defd"
       },
       "400": {
         "$type": "color",
-        "$value": "#9568d8"
+        "$value": "#d5d3fe"
       },
       "500": {
         "$type": "color",
-        "$value": "#7030a0"
+        "$value": "#adafff"
       },
       "600": {
         "$type": "color",
-        "$value": "#5a2683"
+        "$value": "#8585ff"
       },
       "700": {
         "$type": "color",
-        "$value": "#441c67"
+        "$value": "#6952ff"
       },
       "800": {
         "$type": "color",
-        "$value": "#2e134b"
+        "$value": "#5c3df5"
       },
       "900": {
         "$type": "color",
-        "$value": "#1a0a2e"
+        "$value": "#4e25f4"
+      },
+      "1000": {
+        "$type": "color",
+        "$value": "#4722de"
+      },
+      "1100": {
+        "$type": "color",
+        "$value": "#411fcc"
+      },
+      "1200": {
+        "$type": "color",
+        "$value": "#391bb2"
+      },
+      "1300": {
+        "$type": "color",
+        "$value": "#311799"
+      },
+      "1400": {
+        "$type": "color",
+        "$value": "#220066"
       }
     },
     "secondary": {
       "50": {
         "$type": "color",
-        "$value": "#f9f9f9"
+        "$value": "#f8f9fb"
       },
       "100": {
         "$type": "color",
-        "$value": "#f3f3f3"
+        "$value": "#f2f4f7"
       },
       "200": {
         "$type": "color",
-        "$value": "#e8e8e8"
+        "$value": "#edeff2"
       },
       "300": {
         "$type": "color",
-        "$value": "#d5d5d5"
+        "$value": "#e4e6eb"
       },
       "400": {
         "$type": "color",
-        "$value": "#b3b3b3"
+        "$value": "#dadee5"
       },
       "500": {
         "$type": "color",
-        "$value": "#8f8f8f"
+        "$value": "#c7ccd9"
       },
       "600": {
         "$type": "color",
-        "$value": "#6e6e6e"
+        "$value": "#b4b9cc"
       },
       "700": {
         "$type": "color",
-        "$value": "#4d4d4d"
+        "$value": "#9aa2b8"
       },
       "800": {
         "$type": "color",
-        "$value": "#2d2d2d"
+        "$value": "#7a8299"
       },
       "900": {
         "$type": "color",
-        "$value": "#1f1f1f"
+        "$value": "#596380"
+      },
+      "1000": {
+        "$type": "color",
+        "$value": "#3e4866"
+      },
+      "1100": {
+        "$type": "color",
+        "$value": "#363f59"
+      },
+      "1200": {
+        "$type": "color",
+        "$value": "#272d40"
+      },
+      "1300": {
+        "$type": "color",
+        "$value": "#1f2433"
+      },
+      "1400": {
+        "$type": "color",
+        "$value": "#0f0f1a"
       }
     },
     "tertiary": {
@@ -329,15 +369,15 @@
       "primary": {
         "bg-default": {
           "$type": "color",
-          "$value": "{primary.500}"
+          "$value": "{primary.700}"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{primary.600}"
+          "$value": "{primary.800}"
         },
         "bg-pressed": {
           "$type": "color",
-          "$value": "{primary.700}"
+          "$value": "{primary.900}"
         },
         "bg-disabled": {
           "$type": "color",
@@ -401,7 +441,7 @@
         },
         "text": {
           "$type": "color",
-          "$value": "{primary.500}"
+          "$value": "{primary.700}"
         },
         "text-disabled": {
           "$type": "color",
