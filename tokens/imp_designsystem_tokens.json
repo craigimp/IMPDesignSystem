@@ -369,57 +369,57 @@
       "primary": {
         "bg-default": {
           "$type": "color",
-          "$value": "{primary.700}"
+          "$value": "{colors.primary.700}"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{primary.800}"
+          "$value": "{colors.primary.800}"
         },
         "bg-pressed": {
           "$type": "color",
-          "$value": "{primary.900}"
+          "$value": "{colors.primary.900}"
         },
         "bg-disabled": {
           "$type": "color",
-          "$value": "{base.opacity.disabled-1}"
+          "$value": "{colors.base.opacity.disabled-1}"
         },
         "text": {
           "$type": "color",
-          "$value": "{neutral.white}"
+          "$value": "{colors.neutral.white}"
         },
         "text-disabled": {
           "$type": "color",
-          "$value": "{base.opacity.disabled-3}"
+          "$value": "{colors.base.opacity.disabled-3}"
         }
       },
       "secondary": {
         "bg-default": {
           "$type": "color",
-          "$value": "{neutral.bg-light}"
+          "$value": "{colors.neutral.bg-light}"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{secondary.200}"
+          "$value": "{colors.secondary.200}"
         },
         "bg-pressed": {
           "$type": "color",
-          "$value": "{secondary.300}"
+          "$value": "{colors.secondary.300}"
         },
         "bg-disabled": {
           "$type": "color",
-          "$value": "{base.opacity.disabled-1}"
+          "$value": "{colors.base.opacity.disabled-1}"
         },
         "text": {
           "$type": "color",
-          "$value": "{neutral.text-default}"
+          "$value": "{colors.neutral.text-default}"
         },
         "text-disabled": {
           "$type": "color",
-          "$value": "{base.opacity.disabled-3}"
+          "$value": "{colors.base.opacity.disabled-3}"
         },
         "border": {
           "$type": "color",
-          "$value": "{neutral.border}"
+          "$value": "{colors.neutral.border}"
         }
       },
       "tertiary": {
@@ -429,11 +429,11 @@
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{primary.50}"
+          "$value": "{colors.primary.50}"
         },
         "bg-pressed": {
           "$type": "color",
-          "$value": "{primary.100}"
+          "$value": "{colors.primary.100}"
         },
         "bg-disabled": {
           "$type": "color",
@@ -441,37 +441,37 @@
         },
         "text": {
           "$type": "color",
-          "$value": "{primary.700}"
+          "$value": "{colors.primary.700}"
         },
         "text-disabled": {
           "$type": "color",
-          "$value": "{base.opacity.disabled-3}"
+          "$value": "{colors.base.opacity.disabled-3}"
         }
       },
       "destructive": {
         "bg-default": {
           "$type": "color",
-          "$value": "{error.500}"
+          "$value": "{colors.error.500}"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{error.600}"
+          "$value": "{colors.error.600}"
         },
         "bg-pressed": {
           "$type": "color",
-          "$value": "{error.700}"
+          "$value": "{colors.error.700}"
         },
         "bg-disabled": {
           "$type": "color",
-          "$value": "{base.opacity.disabled-1}"
+          "$value": "{colors.base.opacity.disabled-1}"
         },
         "text": {
           "$type": "color",
-          "$value": "{neutral.white}"
+          "$value": "{colors.neutral.white}"
         },
         "text-disabled": {
           "$type": "color",
-          "$value": "{base.opacity.disabled-3}"
+          "$value": "{colors.base.opacity.disabled-3}"
         }
       }
     }

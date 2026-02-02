@@ -1,0 +1,12 @@
+{
+  "name": "imp-design-system",
+  "version": "1.0.0",
+  "description": "IMP Design System tokens and CSS variables",
+  "scripts": {
+    "build": "style-dictionary build --config style-dictionary.config.js",
+    "clean": "rm -rf dist"
+  },
+  "devDependencies": {
+    "style-dictionary": "^3.9.2"
+  }
+}
