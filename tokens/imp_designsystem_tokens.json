@@ -369,15 +369,15 @@
       "primary": {
         "bg-default": {
           "$type": "color",
-          "$value": "{colors.primary.700}"
+          "$value": "{semantic.brand.primary}"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{colors.primary.800}"
+          "$value": "{semantic.brand.primary-hover}"
         },
         "bg-pressed": {
           "$type": "color",
-          "$value": "{colors.primary.900}"
+          "$value": "{semantic.brand.primary-pressed}"
         },
         "bg-disabled": {
           "$type": "color",
@@ -429,11 +429,11 @@
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{colors.primary.50}"
+          "$value": "{semantic.brand.primary-subtle}"
         },
         "bg-pressed": {
           "$type": "color",
-          "$value": "{colors.primary.100}"
+          "$value": "{semantic.brand.primary-subtle-hover}"
         },
         "bg-disabled": {
           "$type": "color",
@@ -441,7 +441,7 @@
         },
         "text": {
           "$type": "color",
-          "$value": "{colors.primary.700}"
+          "$value": "{semantic.brand.primary}"
         },
         "text-disabled": {
           "$type": "color",
@@ -662,6 +662,33 @@
     }
   },
   "semantic": {
+    "brand": {
+      "primary": {
+        "$type": "color",
+        "$value": "{colors.primary.700}",
+        "$description": "Primary brand color - change this to update all primary UI elements"
+      },
+      "primary-hover": {
+        "$type": "color",
+        "$value": "{colors.primary.800}",
+        "$description": "Primary brand color - hover state"
+      },
+      "primary-pressed": {
+        "$type": "color",
+        "$value": "{colors.primary.900}",
+        "$description": "Primary brand color - pressed state"
+      },
+      "primary-subtle": {
+        "$type": "color",
+        "$value": "{colors.primary.50}",
+        "$description": "Primary brand color - subtle/background"
+      },
+      "primary-subtle-hover": {
+        "$type": "color",
+        "$value": "{colors.primary.100}",
+        "$description": "Primary brand color - subtle hover"
+      }
+    },
     "state": {
       "success": {
         "$type": "color",
