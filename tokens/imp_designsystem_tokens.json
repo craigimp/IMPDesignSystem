@@ -365,19 +365,70 @@
         }
       }
     },
+    "semantic": {
+      "brand": {
+        "primary": {
+          "$type": "color",
+          "$value": "{colors.primary.700}",
+          "$description": "Primary brand color - change this to update all primary UI elements"
+        },
+        "primary-hover": {
+          "$type": "color",
+          "$value": "{colors.primary.800}",
+          "$description": "Primary brand color - hover state"
+        },
+        "primary-pressed": {
+          "$type": "color",
+          "$value": "{colors.primary.900}",
+          "$description": "Primary brand color - pressed state"
+        },
+        "primary-subtle": {
+          "$type": "color",
+          "$value": "{colors.primary.50}",
+          "$description": "Primary brand color - subtle/background"
+        },
+        "primary-subtle-hover": {
+          "$type": "color",
+          "$value": "{colors.primary.100}",
+          "$description": "Primary brand color - subtle hover"
+        }
+      },
+      "state": {
+        "success": {
+          "$type": "color",
+          "$value": "{colors.success.500}"
+        },
+        "error": {
+          "$type": "color",
+          "$value": "{colors.error.500}"
+        },
+        "warning": {
+          "$type": "color",
+          "$value": "{colors.warning.500}"
+        },
+        "info": {
+          "$type": "color",
+          "$value": "{colors.tertiary.500}"
+        },
+        "neutral": {
+          "$type": "color",
+          "$value": "{colors.secondary.600}"
+        }
+      }
+    },
     "button": {
       "primary": {
         "bg-default": {
           "$type": "color",
-          "$value": "{semantic.brand.primary}"
+          "$value": "{colors.semantic.brand.primary}"
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{semantic.brand.primary-hover}"
+          "$value": "{colors.semantic.brand.primary-hover}"
         },
         "bg-pressed": {
           "$type": "color",
-          "$value": "{semantic.brand.primary-pressed}"
+          "$value": "{colors.semantic.brand.primary-pressed}"
         },
         "bg-disabled": {
           "$type": "color",
@@ -429,11 +480,11 @@
         },
         "bg-hover": {
           "$type": "color",
-          "$value": "{semantic.brand.primary-subtle}"
+          "$value": "{colors.semantic.brand.primary-subtle}"
         },
         "bg-pressed": {
           "$type": "color",
-          "$value": "{semantic.brand.primary-subtle-hover}"
+          "$value": "{colors.semantic.brand.primary-subtle-hover}"
         },
         "bg-disabled": {
           "$type": "color",
@@ -441,7 +492,7 @@
         },
         "text": {
           "$type": "color",
-          "$value": "{semantic.brand.primary}"
+          "$value": "{colors.semantic.brand.primary}"
         },
         "text-disabled": {
           "$type": "color",
@@ -659,57 +710,6 @@
         0.2,
         1
       ]
-    }
-  },
-  "semantic": {
-    "brand": {
-      "primary": {
-        "$type": "color",
-        "$value": "{colors.primary.700}",
-        "$description": "Primary brand color - change this to update all primary UI elements"
-      },
-      "primary-hover": {
-        "$type": "color",
-        "$value": "{colors.primary.800}",
-        "$description": "Primary brand color - hover state"
-      },
-      "primary-pressed": {
-        "$type": "color",
-        "$value": "{colors.primary.900}",
-        "$description": "Primary brand color - pressed state"
-      },
-      "primary-subtle": {
-        "$type": "color",
-        "$value": "{colors.primary.50}",
-        "$description": "Primary brand color - subtle/background"
-      },
-      "primary-subtle-hover": {
-        "$type": "color",
-        "$value": "{colors.primary.100}",
-        "$description": "Primary brand color - subtle hover"
-      }
-    },
-    "state": {
-      "success": {
-        "$type": "color",
-        "$value": "{colors.success.500}"
-      },
-      "error": {
-        "$type": "color",
-        "$value": "{colors.error.500}"
-      },
-      "warning": {
-        "$type": "color",
-        "$value": "{colors.warning.500}"
-      },
-      "info": {
-        "$type": "color",
-        "$value": "{colors.tertiary.500}"
-      },
-      "neutral": {
-        "$type": "color",
-        "$value": "{colors.secondary.600}"
-      }
     }
   },
   "$themes": [],
